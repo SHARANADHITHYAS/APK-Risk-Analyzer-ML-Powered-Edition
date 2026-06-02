@@ -1,0 +1,27 @@
+# APK Download List
+# One URL per line. Lines starting with # are ignored.
+# 
+# Example public APK sources:
+# 
+# 1. GitHub Releases (open-source apps)
+#    https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+41bb2a4-github-debug_arm64-v8a.apk
+#    https://github.com/ankidroid/Anki-Android/releases/download/v16.6.1/AnkiDroid-16.6.1.apk
+# 
+# 2. APKPure (requires manual download links or API—not always freely available)
+#
+# 3. F-Droid (open-source apps, downloadable)
+#    https://f-droid.org/repo/org.videolan.vlc_2190.apk
+#    https://f-droid.org/repo/org.torproject.android_16600.apk
+#
+# HOW TO USE:
+# - Uncomment and modify example URLs above, or add new ones
+# - Run: python scripts/download_datasets.py
+# - Downloaded APKs will be saved to data/raw/
+#
+# NOTE: Large files may take time. If a download fails, the script will skip it and continue.
+# You can also manually download APKs and place them in data/raw/, then add entries to data/labels.csv
+
+# Real APK examples for testing (uncomment to download):
+# F-Droid open-source apps (publicly available):
+https://f-droid.org/repo/org.videolan.vlc_2190.apk
+https://f-droid.org/repo/de.grobox.blitzmail_15.apk

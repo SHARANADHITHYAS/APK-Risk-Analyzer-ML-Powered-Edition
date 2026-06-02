@@ -1,0 +1,7 @@
+apk_path,label,source,sha256
+data\raw\Calculator.apk,0,synthetic,unknown
+data\raw\Notes.apk,0,synthetic,unknown
+data\raw\Weather.apk,0,synthetic,unknown
+data\raw\Banking_Trojan.apk,1,synthetic,unknown
+data\raw\SMS_Stealer.apk,1,synthetic,unknown
+data\raw\AdWare.apk,1,synthetic,unknown
